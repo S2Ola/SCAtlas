@@ -23,8 +23,15 @@ REPORT_FAIL_ON =            None
 OBO_FORMAT_OPTIONS =        
 SPARQL_VALIDATION_CHECKS =  equivalent-classes trailing-whitespace owldef-self-reference xref-syntax nolabels
 SPARQL_EXPORTS =            basic-report class-count-by-prefix edges xrefs obsoletes synonyms
+MIRRORDIR= 					./mirror/
+OWLTOOLS= 					../../../../bin/owltools
+IMPORTSDIR= 				./imports/
+PREFIX = 					"SCAO: http://purl.obolibrary.org/obo/SCAO_"
+SPARQLDIR=					../sparql/
+
 
 TODAY   := $(shell date +%Y-%m-%d)
+
 
 # ----------------------------------------
 # Top-level targets
@@ -42,11 +49,27 @@ MAIN_FILES = $(foreach n,$(MAIN_PRODUCTS), $(n).owl $(n).obo $(n).json)
 all_main: $(MAIN_FILES)
 
 ## -- import targets --
+# ----------------------------------------
+# Top-level targets
+# ----------------------------------------
+
+all: all_imports all_main all_subsets sparql_test patterns all_reports all_assets  scao-prefixed.owl
+
+## -- main targets --
+##
+## By default this is the cross-product of {ont, ont-base} x FORMATS
+
+MAIN_PRODUCTS = $(ONT) $(ONT)-base
+MAIN_FILES = $(foreach n,$(MAIN_PRODUCTS), $(n).owl $(n).obo $(n).json)
+
+all_main: $(MAIN_FILES)
+
+## -- import targets --
 ##
 ## By default this is the cross-product of IMPORT_MODULES x FORMATS
 
 
-IMPORTS =  cl
+IMPORTS = 
 
 IMPORT_ROOTS = $(patsubst %, imports/%_import, $(IMPORTS))
 IMPORT_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl $(n).obo $(n).json)
@@ -140,8 +163,8 @@ ANNOTATE_VERSION_IRI = annotate -V $(ONTBASE)/releases/`date +%Y-%m-%d`/$@.owl
 
 # by default we use ELK to perform a reason-relax-reduce chain
 # after that we annotate the ontology with the release versionInfo
-$(ONT).owl: $(SRC)
-	$(ROBOT) reason --input $< --reasoner ELK \
+#$(ONT).owl: $(SRC)
+#	$(ROBOT) reason --input $< --reasoner ELK \
 		 relax \
 		 reduce -r ELK \
 		 remove --select imports \
@@ -149,10 +172,10 @@ $(ONT).owl: $(SRC)
 	         annotate --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@
 
 # requires robot 1.2
-$(ONT)-base.owl: $(SRC)
-	$(ROBOT) remove --trim false --input $< --select imports \
-annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@ &&\
-	echo "$(ONT)-base.owl successfully created."
+#$(ONT)-base.owl: $(SRC)
+#	$(ROBOT) remove --trim false --input $< --select imports \
+#annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@ &&\
+#	echo "$(ONT)-base.owl successfully created."
 
 # ----------------------------------------
 # Import modules
@@ -192,16 +215,6 @@ imports/%_import.obo: imports/%_import.owl
 # Mirroring upstream ontologies
 # ----------------------------------------
 #
-
-
-## ONTOLOGY: cl
-## Copy of cl is re-downloaded whenever source changes
-mirror/cl.trigger: $(SRC)
-
-mirror/cl.owl: mirror/cl.trigger
-	$(ROBOT) convert -I $(URIBASE)/cl.owl -o $@
-
-.PRECIOUS: mirror/%.owl
 
 
 
