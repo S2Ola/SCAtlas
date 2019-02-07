@@ -1,0 +1,267 @@
+Level	Rule Name	Subject	Property	Value
+ERROR	deprecated_class_reference	CL:0000002	rdfs:comment	Obsoleted in July 2013 and replaced by the CLO 'immortal cell line cell' class, as a result of CLO-OBI-CL alignment efforts.        Covers cells actively being cultured or stored in a quiescent state for future use.	
+ERROR	deprecated_class_reference	CL:0000002	rdfs:label	obsolete immortal cell line cell	
+ERROR	deprecated_class_reference	CL:0000002	owl:deprecated	true^^http://www.w3.org/2001/XMLSchema#boolean	
+ERROR	missing_ontology_description	scao.owl	dc11:description		
+ERROR	duplicate_label	CARO:0000014	rdfs:label	cell part@en	
+ERROR	duplicate_label	GO:0044464	rdfs:label	cell part@en	
+ERROR	duplicate_label	CL:0000000	rdfs:label	cell	
+ERROR	duplicate_label	GO:0005623	rdfs:label	cell	
+ERROR	missing_ontology_license	scao.owl	dc:license		
+ERROR	missing_ontology_title	scao.owl	dc11:title		
+ERROR	multiple_labels	BFO:0000050	rdfs:label	part of	
+ERROR	multiple_labels	BFO:0000050	rdfs:label	part of@en	
+ERROR	multiple_labels	BFO:0000051	rdfs:label	has part	
+ERROR	multiple_labels	BFO:0000051	rdfs:label	has part@en	
+ERROR	multiple_labels	CL:0000000	rdfs:label	cell	
+ERROR	multiple_labels	CL:0000000	rdfs:label	cell@en	
+ERROR	multiple_labels	GO:0005634	rdfs:label	nucleus	
+ERROR	multiple_labels	GO:0005634	rdfs:label	nucleus@en	
+ERROR	multiple_labels	GO:0044464	rdfs:label	cell part	
+ERROR	multiple_labels	GO:0044464	rdfs:label	cell part@en	
+ERROR	multiple_labels	RO:0002202	rdfs:label	develops from@en	
+ERROR	multiple_labels	RO:0002202	rdfs:label	develops_from	
+WARN	equivalent_pair	CL:0000000	owl:equivalentClass	GO:0005623	
+WARN	multiple_asserted_superclasses	CL:0000000	rdfs:subClassOf	CARO:0000003	
+WARN	multiple_asserted_superclasses	CL:0000000	rdfs:subClassOf	GO:0005575	
+WARN	multiple_asserted_superclasses	CL:0000003	rdfs:subClassOf	CL:0000000	
+WARN	multiple_asserted_superclasses	CL:0000003	rdfs:subClassOf	GO:0005623	
+WARN	multiple_asserted_superclasses	CL:0001034	rdfs:subClassOf	CL:0000000	
+WARN	multiple_asserted_superclasses	CL:0001034	rdfs:subClassOf	GO:0005623	
+WARN	multiple_asserted_superclasses	CL:0002076	rdfs:subClassOf	CL:0000066	
+WARN	multiple_asserted_superclasses	CL:0002076	rdfs:subClassOf	CL:0002371	
+WARN	multiple_asserted_superclasses	CL:0002077	rdfs:subClassOf	CL:0000066	
+WARN	multiple_asserted_superclasses	CL:0002077	rdfs:subClassOf	CL:0002371	
+WARN	multiple_asserted_superclasses	CL:0002319	rdfs:subClassOf	CL:0000548	
+WARN	multiple_asserted_superclasses	CL:0002319	rdfs:subClassOf	CL:0002371	
+WARN	multiple_asserted_superclasses	CL:0002320	rdfs:subClassOf	CL:0000548	
+WARN	multiple_asserted_superclasses	GO:0005623	rdfs:subClassOf	CARO:0000003	
+WARN	multiple_asserted_superclasses	GO:0005623	rdfs:subClassOf	GO:0005575	
+WARN	multiple_asserted_superclasses	GO:0005634	rdfs:subClassOf	GO:0043231	
+WARN	multiple_asserted_superclasses	GO:0005634	rdfs:subClassOf	GO:0044464	
+WARN	multiple_asserted_superclasses	GO:0043229	rdfs:subClassOf	GO:0043226	
+WARN	multiple_asserted_superclasses	GO:0043229	rdfs:subClassOf	GO:0044424	
+WARN	multiple_asserted_superclasses	GO:0043231	rdfs:subClassOf	GO:0043227	
+WARN	multiple_asserted_superclasses	GO:0043231	rdfs:subClassOf	GO:0043229	
+WARN	multiple_asserted_superclasses	GO:0044464	rdfs:subClassOf	CARO:0000014	
+WARN	multiple_asserted_superclasses	GO:0044464	rdfs:subClassOf	GO:0005575	
+WARN	multiple_asserted_superclasses	UBERON:0000065	rdfs:subClassOf	UBERON:0001005	
+WARN	multiple_asserted_superclasses	UBERON:0000065	rdfs:subClassOf	UBERON:0004119	
+WARN	multiple_asserted_superclasses	UBERON:0000072	rdfs:subClassOf	UBERON:0004119	
+WARN	multiple_asserted_superclasses	UBERON:0000072	rdfs:subClassOf	UBERON:0013522	
+WARN	multiple_asserted_superclasses	UBERON:0000076	rdfs:subClassOf	BFO:0000004	
+WARN	multiple_asserted_superclasses	UBERON:0000076	rdfs:subClassOf	UBERON:0000490	
+WARN	multiple_asserted_superclasses	UBERON:0000076	rdfs:subClassOf	UBERON:0005291	
+WARN	multiple_asserted_superclasses	UBERON:0000077	rdfs:subClassOf	UBERON:0004119	
+WARN	multiple_asserted_superclasses	UBERON:0000077	rdfs:subClassOf	UBERON:0004120	
+WARN	multiple_asserted_superclasses	UBERON:0000078	rdfs:subClassOf	UBERON:0000077	
+WARN	multiple_asserted_superclasses	UBERON:0000078	rdfs:subClassOf	UBERON:0004121	
+WARN	multiple_asserted_superclasses	UBERON:0000114	rdfs:subClassOf	UBERON:0000077	
+WARN	multiple_asserted_superclasses	UBERON:0000114	rdfs:subClassOf	UBERON:0003580	
+WARN	multiple_asserted_superclasses	UBERON:0000114	rdfs:subClassOf	UBERON:0003837	
+WARN	multiple_asserted_superclasses	UBERON:0000117	rdfs:subClassOf	UBERON:0000025	
+WARN	multiple_asserted_superclasses	UBERON:0000117	rdfs:subClassOf	UBERON:0004119	
+WARN	multiple_asserted_superclasses	UBERON:0000118	rdfs:subClassOf	UBERON:0005153	
+WARN	multiple_asserted_superclasses	UBERON:0000118	rdfs:subClassOf	UBERON:0005911	
+WARN	multiple_asserted_superclasses	UBERON:0000170	rdfs:subClassOf	CARO:0000003	
+WARN	multiple_asserted_superclasses	UBERON:0000170	rdfs:subClassOf	UBERON:0034925	
+WARN	multiple_asserted_superclasses	UBERON:0000307	rdfs:subClassOf	BFO:0000004	
+WARN	multiple_asserted_superclasses	UBERON:0000307	rdfs:subClassOf	UBERON:0000922	
+WARN	multiple_asserted_superclasses	UBERON:0000383	rdfs:subClassOf	CARO:0000003	
+WARN	multiple_asserted_superclasses	UBERON:0000383	rdfs:subClassOf	UBERON:0011216	
+WARN	multiple_asserted_superclasses	UBERON:0000485	rdfs:subClassOf	UBERON:0000490	
+WARN	multiple_asserted_superclasses	UBERON:0000485	rdfs:subClassOf	UBERON:0012274	
+WARN	multiple_asserted_superclasses	UBERON:0000915	rdfs:subClassOf	CARO:0000003	
+WARN	multiple_asserted_superclasses	UBERON:0000915	rdfs:subClassOf	UBERON:0009569	
+WARN	multiple_asserted_superclasses	UBERON:0000915	rdfs:subClassOf	UBERON:0011676	
+WARN	multiple_asserted_superclasses	UBERON:0001015	rdfs:subClassOf	CARO:0000003	
+WARN	multiple_asserted_superclasses	UBERON:0001015	rdfs:subClassOf	UBERON:0011216	
+WARN	multiple_asserted_superclasses	UBERON:0001017	rdfs:subClassOf	UBERON:0004121	
+WARN	multiple_asserted_superclasses	UBERON:0001017	rdfs:subClassOf	UBERON:0011216	
+WARN	multiple_asserted_superclasses	UBERON:0001558	rdfs:subClassOf	CARO:0000003	
+WARN	multiple_asserted_superclasses	UBERON:0001558	rdfs:subClassOf	UBERON:0000072	
+WARN	multiple_asserted_superclasses	UBERON:0001630	rdfs:subClassOf	CARO:0000003	
+WARN	multiple_asserted_superclasses	UBERON:0001630	rdfs:subClassOf	UBERON:0000062	
+WARN	multiple_asserted_superclasses	UBERON:0001630	rdfs:subClassOf	UBERON:0005090	
+WARN	multiple_asserted_superclasses	UBERON:0002048	rdfs:subClassOf	UBERON:0000171	
+WARN	multiple_asserted_superclasses	UBERON:0002048	rdfs:subClassOf	UBERON:0004119	
+WARN	multiple_asserted_superclasses	UBERON:0002048	rdfs:subClassOf	UBERON:0005178	
+WARN	multiple_asserted_superclasses	UBERON:0002048	rdfs:subClassOf	UBERON:0015212	
+WARN	multiple_asserted_superclasses	UBERON:0002090	rdfs:subClassOf	BFO:0000004	
+WARN	multiple_asserted_superclasses	UBERON:0002090	rdfs:subClassOf	UBERON:0010912	
+WARN	multiple_asserted_superclasses	UBERON:0002204	rdfs:subClassOf	CARO:0000003	
+WARN	multiple_asserted_superclasses	UBERON:0002204	rdfs:subClassOf	UBERON:0000467	
+WARN	multiple_asserted_superclasses	UBERON:0002329	rdfs:subClassOf	BFO:0000004	
+WARN	multiple_asserted_superclasses	UBERON:0002329	rdfs:subClassOf	UBERON:0005423	
+WARN	multiple_asserted_superclasses	UBERON:0002329	rdfs:subClassOf	UBERON:0007503	
+WARN	multiple_asserted_superclasses	UBERON:0002385	rdfs:subClassOf	UBERON:0000479	
+WARN	multiple_asserted_superclasses	UBERON:0002385	rdfs:subClassOf	UBERON:0004120	
+WARN	multiple_asserted_superclasses	UBERON:0002416	rdfs:subClassOf	CARO:0000003	
+WARN	multiple_asserted_superclasses	UBERON:0002416	rdfs:subClassOf	UBERON:0000467	
+WARN	multiple_asserted_superclasses	UBERON:0003077	rdfs:subClassOf	UBERON:0005291	
+WARN	multiple_asserted_superclasses	UBERON:0003077	rdfs:subClassOf	UBERON:0007524	
+WARN	multiple_asserted_superclasses	UBERON:0003077	rdfs:subClassOf	UBERON:0015212	
+WARN	multiple_asserted_superclasses	UBERON:0003081	rdfs:subClassOf	UBERON:0002050	
+WARN	multiple_asserted_superclasses	UBERON:0003081	rdfs:subClassOf	UBERON:0004120	
+WARN	multiple_asserted_superclasses	UBERON:0003081	rdfs:subClassOf	UBERON:0005291	
+WARN	multiple_asserted_superclasses	UBERON:0003081	rdfs:subClassOf	UBERON:0007524	
+WARN	multiple_asserted_superclasses	UBERON:0003089	rdfs:subClassOf	BFO:0000004	
+WARN	multiple_asserted_superclasses	UBERON:0003089	rdfs:subClassOf	UBERON:0005856	
+WARN	multiple_asserted_superclasses	UBERON:0003089	rdfs:subClassOf	UBERON:0007530	
+WARN	multiple_asserted_superclasses	UBERON:0003102	rdfs:subClassOf	CARO:0000003	
+WARN	multiple_asserted_superclasses	UBERON:0003102	rdfs:subClassOf	UBERON:0000061	
+WARN	multiple_asserted_superclasses	UBERON:0003258	rdfs:subClassOf	UBERON:0000490	
+WARN	multiple_asserted_superclasses	UBERON:0003258	rdfs:subClassOf	UBERON:0005911	
+WARN	multiple_asserted_superclasses	UBERON:0003258	rdfs:subClassOf	UBERON:0015833	
+WARN	multiple_asserted_superclasses	UBERON:0003580	rdfs:subClassOf	UBERON:0003570	
+WARN	multiple_asserted_superclasses	UBERON:0003580	rdfs:subClassOf	UBERON:0004119	
+WARN	multiple_asserted_superclasses	UBERON:0003914	rdfs:subClassOf	UBERON:0000025	
+WARN	multiple_asserted_superclasses	UBERON:0003914	rdfs:subClassOf	UBERON:0000483	
+WARN	multiple_asserted_superclasses	UBERON:0004119	rdfs:subClassOf	BFO:0000004	
+WARN	multiple_asserted_superclasses	UBERON:0004119	rdfs:subClassOf	UBERON:0000061	
+WARN	multiple_asserted_superclasses	UBERON:0004120	rdfs:subClassOf	BFO:0000004	
+WARN	multiple_asserted_superclasses	UBERON:0004120	rdfs:subClassOf	UBERON:0000061	
+WARN	multiple_asserted_superclasses	UBERON:0004121	rdfs:subClassOf	BFO:0000004	
+WARN	multiple_asserted_superclasses	UBERON:0004121	rdfs:subClassOf	UBERON:0000061	
+WARN	multiple_asserted_superclasses	UBERON:0004185	rdfs:subClassOf	UBERON:0004119	
+WARN	multiple_asserted_superclasses	UBERON:0004185	rdfs:subClassOf	UBERON:0004921	
+WARN	multiple_asserted_superclasses	UBERON:0004802	rdfs:subClassOf	UBERON:0004807	
+WARN	multiple_asserted_superclasses	UBERON:0004802	rdfs:subClassOf	UBERON:0005911	
+WARN	multiple_asserted_superclasses	UBERON:0004802	rdfs:subClassOf	UBERON:0010499	
+WARN	multiple_asserted_superclasses	UBERON:0004873	rdfs:subClassOf	CARO:0000003	
+WARN	multiple_asserted_superclasses	UBERON:0004873	rdfs:subClassOf	UBERON:0002050	
+WARN	multiple_asserted_superclasses	UBERON:0004883	rdfs:subClassOf	UBERON:0000077	
+WARN	multiple_asserted_superclasses	UBERON:0004883	rdfs:subClassOf	UBERON:0003104	
+WARN	multiple_asserted_superclasses	UBERON:0004906	rdfs:subClassOf	UBERON:0004121	
+WARN	multiple_asserted_superclasses	UBERON:0004906	rdfs:subClassOf	UBERON:0004921	
+WARN	multiple_asserted_superclasses	UBERON:0005256	rdfs:subClassOf	UBERON:0003104	
+WARN	multiple_asserted_superclasses	UBERON:0005256	rdfs:subClassOf	UBERON:0005291	
+WARN	multiple_asserted_superclasses	UBERON:0005597	rdfs:subClassOf	BFO:0000004	
+WARN	multiple_asserted_superclasses	UBERON:0005597	rdfs:subClassOf	UBERON:0001048	
+WARN	multiple_asserted_superclasses	UBERON:0005856	rdfs:subClassOf	UBERON:0007524	
+WARN	multiple_asserted_superclasses	UBERON:0005856	rdfs:subClassOf	UBERON:0011585	
+WARN	multiple_asserted_superclasses	UBERON:0005911	rdfs:subClassOf	UBERON:0000483	
+WARN	multiple_asserted_superclasses	UBERON:0005911	rdfs:subClassOf	UBERON:0004119	
+WARN	multiple_asserted_superclasses	UBERON:0005944	rdfs:subClassOf	BFO:0000004	
+WARN	multiple_asserted_superclasses	UBERON:0005944	rdfs:subClassOf	UBERON:0010912	
+WARN	multiple_asserted_superclasses	UBERON:0006595	rdfs:subClassOf	BFO:0000004	
+WARN	multiple_asserted_superclasses	UBERON:0006595	rdfs:subClassOf	UBERON:0006598	
+WARN	multiple_asserted_superclasses	UBERON:0006601	rdfs:subClassOf	BFO:0000004	
+WARN	multiple_asserted_superclasses	UBERON:0006601	rdfs:subClassOf	UBERON:0006598	
+WARN	multiple_asserted_superclasses	UBERON:0006603	rdfs:subClassOf	BFO:0000004	
+WARN	multiple_asserted_superclasses	UBERON:0006603	rdfs:subClassOf	UBERON:0006598	
+WARN	multiple_asserted_superclasses	UBERON:0007282	rdfs:subClassOf	BFO:0000004	
+WARN	multiple_asserted_superclasses	UBERON:0007282	rdfs:subClassOf	UBERON:0006598	
+WARN	multiple_asserted_superclasses	UBERON:0007285	rdfs:subClassOf	BFO:0000004	
+WARN	multiple_asserted_superclasses	UBERON:0007285	rdfs:subClassOf	UBERON:0006598	
+WARN	multiple_asserted_superclasses	UBERON:0007376	rdfs:subClassOf	UBERON:0003102	
+WARN	multiple_asserted_superclasses	UBERON:0007376	rdfs:subClassOf	UBERON:0010371	
+WARN	multiple_asserted_superclasses	UBERON:0007383	rdfs:subClassOf	UBERON:0000490	
+WARN	multiple_asserted_superclasses	UBERON:0007383	rdfs:subClassOf	UBERON:0005291	
+WARN	multiple_asserted_superclasses	UBERON:0007383	rdfs:subClassOf	UBERON:0010371	
+WARN	multiple_asserted_superclasses	UBERON:0007499	rdfs:subClassOf	UBERON:0003914	
+WARN	multiple_asserted_superclasses	UBERON:0007499	rdfs:subClassOf	UBERON:0009856	
+WARN	multiple_asserted_superclasses	UBERON:0007592	rdfs:subClassOf	UBERON:0000485	
+WARN	multiple_asserted_superclasses	UBERON:0007592	rdfs:subClassOf	UBERON:0007601	
+WARN	multiple_asserted_superclasses	UBERON:0007690	rdfs:subClassOf	UBERON:0000490	
+WARN	multiple_asserted_superclasses	UBERON:0007690	rdfs:subClassOf	UBERON:0003258	
+WARN	multiple_asserted_superclasses	UBERON:0007690	rdfs:subClassOf	UBERON:0005291	
+WARN	multiple_asserted_superclasses	UBERON:0008947	rdfs:subClassOf	BFO:0000004	
+WARN	multiple_asserted_superclasses	UBERON:0008947	rdfs:subClassOf	UBERON:0001048	
+WARN	multiple_asserted_superclasses	UBERON:0009722	rdfs:subClassOf	UBERON:0005291	
+WARN	multiple_asserted_superclasses	UBERON:0009722	rdfs:subClassOf	UBERON:0005911	
+WARN	multiple_asserted_superclasses	UBERON:0009722	rdfs:subClassOf	UBERON:0015833	
+WARN	multiple_asserted_superclasses	UBERON:0009854	rdfs:subClassOf	UBERON:0004921	
+WARN	multiple_asserted_superclasses	UBERON:0009854	rdfs:subClassOf	UBERON:0009856	
+WARN	multiple_asserted_superclasses	UBERON:0010316	rdfs:subClassOf	BFO:0000004	
+WARN	multiple_asserted_superclasses	UBERON:0010316	rdfs:subClassOf	UBERON:0000479	
+WARN	multiple_asserted_superclasses	UBERON:0010316	rdfs:subClassOf	UBERON:0002050	
+WARN	multiple_asserted_superclasses	UBERON:0010316	rdfs:subClassOf	UBERON:0005291	
+WARN	multiple_asserted_superclasses	UBERON:0010371	rdfs:subClassOf	UBERON:0000483	
+WARN	multiple_asserted_superclasses	UBERON:0010371	rdfs:subClassOf	UBERON:0004121	
+WARN	multiple_asserted_superclasses	UBERON:0010378	rdfs:subClassOf	UBERON:0004120	
+WARN	multiple_asserted_superclasses	UBERON:0010378	rdfs:subClassOf	UBERON:0005291	
+WARN	multiple_asserted_superclasses	UBERON:0010378	rdfs:subClassOf	UBERON:0007524	
+WARN	multiple_asserted_superclasses	UBERON:0010499	rdfs:subClassOf	UBERON:0007592	
+WARN	multiple_asserted_superclasses	UBERON:0010499	rdfs:subClassOf	UBERON:0010498	
+WARN	multiple_asserted_superclasses	UBERON:0011137	rdfs:subClassOf	CARO:0000003	
+WARN	multiple_asserted_superclasses	UBERON:0011137	rdfs:subClassOf	UBERON:0000075	
+WARN	multiple_asserted_superclasses	UBERON:0011138	rdfs:subClassOf	BFO:0000004	
+WARN	multiple_asserted_superclasses	UBERON:0011138	rdfs:subClassOf	UBERON:0000075	
+WARN	multiple_asserted_superclasses	UBERON:0012275	rdfs:subClassOf	UBERON:0000483	
+WARN	multiple_asserted_superclasses	UBERON:0012275	rdfs:subClassOf	UBERON:0004120	
+WARN	multiple_asserted_superclasses	UBERON:0014477	rdfs:subClassOf	BFO:0000004	
+WARN	multiple_asserted_superclasses	UBERON:0014477	rdfs:subClassOf	UBERON:0010912	
+WARN	multiple_asserted_superclasses	UBERON:0016879	rdfs:subClassOf	BFO:0000004	
+WARN	multiple_asserted_superclasses	UBERON:0016879	rdfs:subClassOf	UBERON:0006598	
+WARN	multiple_asserted_superclasses	UBERON:0036072	rdfs:subClassOf	UBERON:0004185	
+WARN	multiple_asserted_superclasses	UBERON:0036072	rdfs:subClassOf	UBERON:0005911	
+WARN	multiple_asserted_superclasses	UBERON:0036072	rdfs:subClassOf	UBERON:0007499	
+WARN	multiple_asserted_superclasses	UBERON:0036072	rdfs:subClassOf	UBERON:0009854	
+WARN	multiple_asserted_superclasses	UBERON:0036072	rdfs:subClassOf	UBERON:0015833	
+WARN	multiple_asserted_superclasses	UBERON:0036073	rdfs:subClassOf	UBERON:0000077	
+WARN	multiple_asserted_superclasses	UBERON:0036073	rdfs:subClassOf	UBERON:0003104	
+WARN	missing_definition	CARO:0000003	IAO:0000115		
+WARN	missing_definition	CARO:0000006	IAO:0000115		
+WARN	missing_definition	CARO:0000014	IAO:0000115		
+WARN	missing_definition	CL:0000082	IAO:0000115		
+WARN	missing_definition	CL:0000255	IAO:0000115		
+WARN	missing_definition	CL:0000548	IAO:0000115		
+WARN	missing_definition	CL:0002632	IAO:0000115		
+WARN	missing_definition	GO:0005575	IAO:0000115		
+WARN	missing_definition	GO:0005623	IAO:0000115		
+WARN	missing_definition	GO:0005634	IAO:0000115		
+WARN	missing_definition	GO:0043226	IAO:0000115		
+WARN	missing_definition	GO:0043227	IAO:0000115		
+WARN	missing_definition	GO:0043229	IAO:0000115		
+WARN	missing_definition	GO:0043231	IAO:0000115		
+WARN	missing_definition	GO:0044424	IAO:0000115		
+WARN	missing_definition	GO:0044464	IAO:0000115		
+WARN	missing_definition	PATO:0000001	IAO:0000115		
+WARN	missing_definition	PATO:0001241	IAO:0000115		
+WARN	missing_definition	PATO:0001396	IAO:0000115		
+WARN	missing_definition	PATO:0001404	IAO:0000115		
+WARN	missing_definition	PATO:0001405	IAO:0000115		
+WARN	missing_definition	PATO:0002505	IAO:0000115		
+WARN	missing_definition	RO:0002203	IAO:0000115		
+WARN	missing_definition	RO:0002255	IAO:0000115		
+WARN	missing_definition	RO:0002495	IAO:0000115		
+WARN	missing_definition	RO:0002502	IAO:0000115		
+WARN	missing_definition	SCAO:00000000	IAO:0000115		
+WARN	missing_definition	UBERON:0005423	IAO:0000115		
+WARN	missing_definition	UBERON:0007026	IAO:0000115		
+WARN	missing_definition	UBERON:0008947	IAO:0000115		
+WARN	missing_definition	UBERON:0009145	IAO:0000115		
+WARN	missing_definition	UBERON:0009569	IAO:0000115		
+WARN	missing_definition	UBERON:0009618	IAO:0000115		
+WARN	missing_definition	UBERON:0009722	IAO:0000115		
+WARN	missing_definition	UBERON:0009856	IAO:0000115		
+WARN	missing_definition	UBERON:0010316	IAO:0000115		
+WARN	missing_definition	UBERON:0013522	IAO:0000115		
+WARN	missing_definition	UBERON:0036072	IAO:0000115		
+WARN	missing_definition	UBERON:0036073	IAO:0000115		
+WARN	duplicate_scoped_synonym	UBERON:0000117	oboInOwl:hasExactSynonym	segment of tracheobronchial tree	
+WARN	duplicate_scoped_synonym	UBERON:0000117	oboInOwl:hasNarrowSynonym	segment of tracheobronchial tree	
+WARN	duplicate_scoped_synonym	UBERON:0001004	oboInOwl:hasExactSynonym	apparatus respiratorius	
+WARN	duplicate_scoped_synonym	UBERON:0001004	oboInOwl:hasRelatedSynonym	apparatus respiratorius	
+INFO	lowercase_definition	BFO:0000050	IAO:0000115	a core relation that holds between a part and its whole@en	
+INFO	lowercase_definition	BFO:0000051	IAO:0000115	a core relation that holds between a whole and its part@en	
+INFO	lowercase_definition	RO:0000052	IAO:0000115	a relation between a specifically dependent continuant (the dependent) and an independent continuant (the bearer), in which the dependent specifically depends on the bearer for its existence@en	
+INFO	lowercase_definition	RO:0000053	IAO:0000115	a relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence@en	
+INFO	lowercase_definition	RO:0002131	IAO:0000115	x overlaps y if and only if there exists some z such that x has part z and z part of y	
+INFO	lowercase_definition	RO:0002202	IAO:0000115	x develops from y if and only if either (a) x directly develops from y or (b) there exists some z such that x directly develops from z and z develops from y	
+INFO	lowercase_definition	RO:0002254	IAO:0000115	x has developmental contribution from y iff x has some part z such that z develops from y@en	
+INFO	lowercase_definition	RO:0002314	IAO:0000115	q inheres in part of w if and only if there exists some p such that q inheres in p and p part of w.	
+INFO	lowercase_definition	RO:0002384	IAO:0000115	x has developmental potential involving y iff x is capable of a developmental process with output y. y may be the successor of x, or may be a different structure in the vicinity (as for example in the case of developmental induction).@en	
+INFO	lowercase_definition	RO:0002385	IAO:0000115	x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y@en	
+INFO	lowercase_definition	RO:0002387	IAO:0000115	x has the potential to develop into y iff x develops into y or if x is capable of developing into y@en	
+INFO	lowercase_definition	RO:0002388	IAO:0000115	x has potential to directly develop into y iff x directly develops into y or x is capable of directly developing into y@en	
+INFO	lowercase_definition	UBERON:0000114	IAO:0000115	the connective tissue located between the respiratory (airway and alveolar) epithelium, the capillary endothelium and pleural mesothelium; it contains basement membrane composed of collagen, elastin, proteoglycans, and fibronectin	
+INFO	lowercase_definition	UBERON:0001009	IAO:0000115	organ system that passes nutrients (such as amino acids and electrolytes), gases, hormones, blood cells, etc. to and from cells in the body to help fight diseases and help stabilize body temperature and pH to maintain homeostasis[WP].	
+INFO	lowercase_definition	UBERON:0004802	IAO:0000115	the pseudostratified ciliated epithelium that lines much of the conducting portion of the airway, including part of the nasal cavity and larynx, the trachea, and bronchi	
+INFO	lowercase_definition	UBERON:0007690	IAO:0000115	.	
+INFO	missing_superclass	BFO:0000002	rdfs:subClassOf		
+INFO	missing_superclass	GO:0005575	rdfs:subClassOf		
+INFO	missing_superclass	PATO:0000001	rdfs:subClassOf		
+INFO	missing_superclass	SCAO:00000000	rdfs:subClassOf		
+INFO	missing_superclass	UBERON:0001062	rdfs:subClassOf		
