@@ -1,0 +1,31 @@
+
+Prefix(:=<http://purl.obolibrary.org/obo/scao.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/scao.owl>
+
+Import(<http://purl.obolibrary.org/obo/scao/imports/cl_import.owl>)
+
+
+
+Annotation(rdfs:comment "Single Cell Atlas Ontology")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/SCAO_00000000>))
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/SCAO_00000000>
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SCAO_00000000> "root node"@en)
+
+
+)
+
