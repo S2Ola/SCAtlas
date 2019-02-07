@@ -3,11 +3,12 @@
 
 # Single Cell Atlas Ontology
 
-This ontology... YOUR DESCRIPTION HERE
+This ontology is a subset for the single call atlas project 
 
 More information can be found at http://obofoundry.org/ontology/scao
 
 ## Versions
+this release is v1.0
 
 ### Stable release versions
 
