@@ -3,7 +3,7 @@
 
 # Single Cell Atlas Ontology
 
-This ontology is a subset for the single call atlas project 
+This ontology is a subset for the single cell atlas project 
 
 More information can be found at http://obofoundry.org/ontology/scao
 
