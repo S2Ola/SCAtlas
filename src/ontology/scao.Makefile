@@ -17,8 +17,6 @@
 scao_Bot.owl: $(IMPORTSDIR)efo-edit_import.owl $(IMPORTSDIR)efo-edit_terms.tsv
 	$(ROBOT) extract -i $(IMPORTSDIR)efo-edit_import.owl -T $(IMPORTSDIR)efo-edit_terms.tsv --method BOT -o $@
 
-
-
 ## creating the slim
 ## SPARQL query
 ## extracts the URIs and attaches inSubset scao_slim annotation to each term
@@ -28,14 +26,8 @@ scao-slim.owl: scao_Bot.owl
 
 
 
-### Merging ttl with template terms, resulting in the slim annotation of "pdx_slim" being applied to the terms
-### no term annotations are added at this point
-
 #scao-prefixed.owl: scao_Bot.owl scao-slim.owl
 #		$(ROBOT) merge -i scao_Bot.owl -i scao-slim.owl --prefix $(PREFIX) -o $@
-
-
-
 
 
 ## -- import targets --
