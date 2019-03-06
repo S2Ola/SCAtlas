@@ -1,9 +1,0 @@
-format-version: 1.2
-data-version: scao/releases/2019-02-07/scao-base.owl
-remark: Single Cell Atlas Ontology
-ontology: scao/scao-base
-
-[Term]
-id: SCAO:00000000
-name: root node
-

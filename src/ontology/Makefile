@@ -10,7 +10,7 @@
 # these can be overwritten on the command line
 
 URIBASE=                    http://purl.obolibrary.org/obo
-ONT=                        scao
+ONT=                        scATLAS
 ONTBASE=                    $(URIBASE)/$(ONT)
 EDIT_FORMAT=                owl
 SRC =                       $(ONT)-edit.$(EDIT_FORMAT)
@@ -20,13 +20,13 @@ PATTERNDIR=                 ../patterns
 REPORTDIR=                 reports
 SPARQLDIR =                 ../sparql
 REPORT_FAIL_ON =            None
-OBO_FORMAT_OPTIONS =        
+OBO_FORMAT_OPTIONS =
 SPARQL_VALIDATION_CHECKS =  equivalent-classes trailing-whitespace owldef-self-reference xref-syntax nolabels
 SPARQL_EXPORTS =            basic-report class-count-by-prefix edges xrefs obsoletes synonyms
 MIRRORDIR= 					./mirror/
 OWLTOOLS= 					../../../../bin/owltools
 IMPORTSDIR= 				./imports/
-PREFIX = 					"SCAO: http://purl.obolibrary.org/obo/SCAO_"
+PREFIX = 					"scATLAS: http://purl.obolibrary.org/obo/scATLAS_"
 SPARQLDIR=					../sparql/
 
 
@@ -53,7 +53,7 @@ all_main: $(MAIN_FILES)
 # Top-level targets
 # ----------------------------------------
 
-all: all_imports all_main all_subsets sparql_test patterns all_reports all_assets  scao-prefixed.owl
+all: all_imports all_main all_subsets sparql_test patterns all_reports all_assets  scea-prefixed.owl
 
 ## -- main targets --
 ##
@@ -69,7 +69,7 @@ all_main: $(MAIN_FILES)
 ## By default this is the cross-product of IMPORT_MODULES x FORMATS
 
 
-IMPORTS = 
+IMPORTS =
 
 IMPORT_ROOTS = $(patsubst %, imports/%_import, $(IMPORTS))
 IMPORT_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl $(n).obo $(n).json)
@@ -86,7 +86,7 @@ all_imports_obo: $(foreach n,$(IMPORT_ROOTS), $(n).obo)
 ## Note we also include TSV as a format
 
 
-SUBSETS = 
+SUBSETS =
 
 SUBSET_ROOTS = $(patsubst %, subsets/%, $(SUBSETS))
 SUBSET_FILES = $(foreach n,$(SUBSET_ROOTS), $(n).tsv $(n).owl $(n).obo $(n).json)
@@ -97,7 +97,7 @@ all_subsets: $(SUBSET_FILES)
 ##
 
 
-PATTERNS = 
+PATTERNS =
 
 PATTERN_ROOTS = $(patsubst %, $(PATTERNDIR)/%, $(PATTERNS))
 PATTERN_FILES = $(foreach n,$(PATTERN_ROOTS), $(n).owl)
@@ -272,9 +272,4 @@ build-docker:
 
 
 
-include scao.Makefile
-
-
-
-
-
+include scea.Makefile
