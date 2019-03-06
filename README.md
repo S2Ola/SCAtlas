@@ -5,7 +5,7 @@
 
 This ontology is a subset for the single cell atlas project 
 
-More information can be found at http://obofoundry.org/ontology/scao
+More information can be found at http://obofoundry.org/ontology/scATLAS
 
 ## Versions
 this release is v1.0
@@ -14,13 +14,13 @@ this release is v1.0
 
 The latest version of the ontology can always be found at:
 
-http://purl.obolibrary.org/obo/scao.owl
+http://purl.obolibrary.org/obo/scATLAS.owl
 
 (note this will not show up until the request has been approved by obofoundry.org)
 
 ### Editors' version
 
-Editors of this ontology should use the edit version, [src/ontology/scao-edit.owl](src/ontology/scao-edit.owl)
+Editors of this ontology should use the edit version, [src/ontology/scATLAS-edit.owl](src/ontology/scao-edit.owl)
 
 ## Contact
 
