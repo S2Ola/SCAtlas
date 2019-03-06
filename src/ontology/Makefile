@@ -163,8 +163,8 @@ ANNOTATE_VERSION_IRI = annotate -V $(ONTBASE)/releases/`date +%Y-%m-%d`/$@.owl
 
 # by default we use ELK to perform a reason-relax-reduce chain
 # after that we annotate the ontology with the release versionInfo
-#$(ONT).owl: $(SRC)
-#	$(ROBOT) reason --input $< --reasoner ELK \
+$(ONT).owl: $(SRC)
+	$(ROBOT) reason --input $< --reasoner ELK \
 		 relax \
 		 reduce -r ELK \
 		 remove --select imports \
@@ -272,4 +272,4 @@ build-docker:
 
 
 
-include scea.Makefile
+include scATLAS.Makefile
