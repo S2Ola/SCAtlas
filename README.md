@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/S2Ola/scao.svg?branch=master)](https://travis-ci.org/S2Ola/scao)
-[![DOI](https://zenodo.org/badge/13996/S2Ola/scao.svg)](https://zenodo.org/badge/latestdoi/13996/S2Ola/scao)
+[![Build Status](https://travis-ci.org/S2Ola/scATLAS.svg?branch=master)](https://travis-ci.org/S2Ola/scATLAS)
+[![DOI](https://zenodo.org/badge/13996/S2Ola/scATLAS.svg)](https://zenodo.org/badge/latestdoi/13996/S2Ola/scATLAS)
 
 # Single Cell Atlas Ontology
 
