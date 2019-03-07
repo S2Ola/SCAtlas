@@ -1,0 +1,847 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.ebi.ac.uk/efo#"
+     xml:base="http://www.ebi.ac.uk/efo"
+     xmlns:core="http://purl.obolibrary.org/obo/uberon/core#"
+     xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:efo="http://www.ebi.ac.uk/efo/">
+    <owl:Ontology rdf:about="http://www.ebi.ac.uk/efo"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
+        <rdfs:label>example of usage</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
+        <rdfs:label>term editor</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBPROP_0000003 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000003">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Notes on the homology status of this class.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBPROP:0000003</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">homology_notes</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</oboInOwl:is_metadata_tag>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">homology_notes</oboInOwl:shorthand>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+This annotation property may be replaced with an annotation property from an external ontology such as IAO
+</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This annotation property may be replaced with an annotation property from an external ontology such as IAO</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">homology_notes</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000003"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Notes on the homology status of this class.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-6601-2165</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ncbitaxon#has_rank -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ncbitaxon#has_rank"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/uberon/core#homologous_in -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/uberon/core#homologous_in">
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">homologous_in</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</oboInOwl:is_metadata_tag>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Status: experimental</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">homologous_in</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/AAO_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/AAO_definition_citation">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/AAO_definition_citation is an annotation property that is drawn from AAO</obo:IAO_0000115>
+        <efo:AAO_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/AAO_definition_citation is an annotation property that is drawn from AAO</efo:AAO_definition_citation>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/ArrayExpress_label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/ArrayExpress_label"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/BTO_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/BTO_definition_citation">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/BTO_definition_citation is an annotation property that is drawn from BTO</obo:IAO_0000115>
+        <efo:BTO_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/BTO_definition_citation is an annotation property that is drawn from BTO</efo:BTO_definition_citation>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/CALOHA_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/CALOHA_definition_citation">
+        <efo:CALOHA_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/CALOHA_definition_citation is an annotation property that is drawn from CALOHA</efo:CALOHA_definition_citation>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_URI -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/EFO_URI"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/EFO_definition_citation">
+        <efo:EFO_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/EFO_definition_citation is an annotation property that is drawn from EFO</efo:EFO_definition_citation>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EV_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/EV_definition_citation">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/EV_definition_citation is an annotation property that is drawn from EV</obo:IAO_0000115>
+        <efo:EV_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/EV_definition_citation is an annotation property that is drawn from EV</efo:EV_definition_citation>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/FMA_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/FMA_definition_citation">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/FMA_definition_citation is an annotation property that is drawn from FMA</obo:IAO_0000115>
+        <efo:FMA_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/FMA_definition_citation is an annotation property that is drawn from FMA</efo:FMA_definition_citation>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/GAID_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/GAID_definition_citation">
+        <efo:GAID_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/GAID_definition_citation is an annotation property that is drawn from GAID</efo:GAID_definition_citation>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/MAT_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/MAT_definition_citation">
+        <efo:MAT_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/MAT_definition_citation is an annotation property that is drawn from MAT</efo:MAT_definition_citation>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/MA_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/MA_definition_citation">
+        <efo:MA_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/MA_definition_citation is an annotation property that is drawn from MA</efo:MA_definition_citation>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/MIAA_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/MIAA_definition_citation">
+        <efo:MIAA_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/MIAA_definition_citation is an annotation property that is drawn from MIAA</efo:MIAA_definition_citation>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/MO_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/MO_definition_citation">
+        <obo:IAO_0000115>Definition citation for the Microarray and Gene Expression Data Ontology</obo:IAO_0000115>
+        <rdfs:label>MO_definition_citation</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/MSH_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/MSH_definition_citation">
+        <efo:MSH_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/MESH_definition_citation is an annotation property that is drawn from MESH</efo:MSH_definition_citation>
+        <efo:MSH_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/MSH_definition_citation is an annotation property that is drawn from MSH</efo:MSH_definition_citation>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/NCI_Thesaurus_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/NCI_Thesaurus_definition_citation">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/NCI_Thesaurus_definition_citation is an annotation property that is drawn from NCI_Thesaurus</obo:IAO_0000115>
+        <efo:NCI_Thesaurus_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/NCI_Thesaurus_definition_citation is an annotation property that is drawn from NCI_Thesaurus</efo:NCI_Thesaurus_definition_citation>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/NIFSTD_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/NIFSTD_definition_citation">
+        <efo:NIFSTD_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/NIFSTD_definition_citation is an annotation property that is drawn from NIFSTD</efo:NIFSTD_definition_citation>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/OpenCyc_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/OpenCyc_definition_citation">
+        <efo:OpenCyc_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/OpenCyc_definition_citation is an annotation property that is drawn from OpenCyc</efo:OpenCyc_definition_citation>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/SNOMEDCT_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/SNOMEDCT_definition_citation">
+        <efo:SNOMEDCT_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/SNOMEDCT_definition_citation is an annotation property that is drawn from SNOMEDCT</efo:SNOMEDCT_definition_citation>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/UMLS_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/UMLS_definition_citation">
+        <efo:UMLS_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/UMLS_definition_citation is an annotation property that is drawn from UMLS</efo:UMLS_definition_citation>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/VHOG_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/VHOG_definition_citation">
+        <efo:VHOG_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/VHOG_definition_citation is an annotation property that is drawn from VHOG</efo:VHOG_definition_citation>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/Wikipedia_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/Wikipedia_definition_citation">
+        <efo:Wikipedia_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/Wikipedia_definition_citation is an annotation property that is drawn from Wikipedia</efo:Wikipedia_definition_citation>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/XAO_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/XAO_definition_citation">
+        <efo:XAO_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/XAO_definition_citation is an annotation property that is drawn from XAO</efo:XAO_definition_citation>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/alternative_term -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/alternative_term">
+        <obo:IAO_0000115>An alternative label for a given entity such as a commonly used abbreviation or synonym. </obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alternative_term</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/bioportal_provenance -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/bioportal_provenance"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/branch_class -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/branch_class"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/galen_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/galen_definition_citation">
+        <efo:galen_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/galen_definition_citation is an annotation property that is drawn from galen</efo:galen_definition_citation>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/organizational_class -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/organizational_class"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/source_definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/source_definition"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#date_retrieved -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date_retrieved"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#external_class -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#external_class"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasSynonymType -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasSynonymType"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#is_metadata_tag -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#ontology -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#ontology"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#shorthand -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shorthand</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#source -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#source"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000037">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000324"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A stem cell from which all cells of the lymphoid and myeloid lineages develop, including blood cells and cells of the immune system.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A stem cell from which all cells of the lymphoid and myeloid lineages develop, including blood cells and cells of the immune system. Hematopoietic stem cells lack cell markers of effector cells (lin-negative). Lin-negative is defined by lacking one or more of the following cell surface markers: CD2, CD3 epsilon, CD4,CD5,CD8 alpha chain, CD14, CD19, CD20, integrin alpha-M, neural cell adhesion molecule 1, lymphocyte antigen 6G, lymphocyte antigen 76.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Malone</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomasz Adamusiak</obo:IAO_0000117>
+        <efo:EFO_URI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/EFO_0000527</efo:EFO_URI>
+        <efo:NCI_Thesaurus_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIt:C12551</efo:NCI_Thesaurus_definition_citation>
+        <efo:SNOMEDCT_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT:418318001</efo:SNOMEDCT_definition_citation>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HSC</efo:alternative_term>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood forming stem cell</efo:alternative_term>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colony forming unit hematopoietic</efo:alternative_term>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hemopoietic stem cell</efo:alternative_term>
+        <efo:bioportal_provenance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A stem cell from which all cells of the lymphoid and myeloid lineages develop, including blood cells and cells of the immune system. Hematopoietic stem cells lack cell markers of effector cells (lin-negative). Lin-negative is defined by lacking one or more of the following cell surface markers: CD2, CD3 epsilon, CD4,CD5,CD8 alpha chain, CD14, CD19, CD20, integrin alpha-M, neural cell adhesion molecule 1, lymphocyte antigen 6G, lymphocyte antigen 76.[accessedResource: CL:0000037][accessDate: 05-04-2011]</efo:bioportal_provenance>
+        <efo:bioportal_provenance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HSC[accessedResource: CL:0000037][accessDate: 05-04-2011]</efo:bioportal_provenance>
+        <efo:bioportal_provenance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood forming stem cell[accessedResource: CL:0000037][accessDate: 05-04-2011]</efo:bioportal_provenance>
+        <efo:bioportal_provenance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hemopoietic stem cell[accessedResource: CL:0000037][accessDate: 05-04-2011]</efo:bioportal_provenance>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hematopoietic stem cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000837 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000837">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000324"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A hematopoietic multipotent progenitor cell is multipotent, but not capable of long-term self-renewal. These cells are characterized as lacking lineage cell surface markers and being CD34-positive in both mice and humans.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A progenitor cell of any hematopoietic lineage, potentially multipotent.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomasz Adamusiak</obo:IAO_0000117>
+        <efo:EFO_URI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/EFO_0002532</efo:EFO_URI>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPP</efo:alternative_term>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hematopoietic progenitor cell</efo:alternative_term>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hemopoietic progenitor cell</efo:alternative_term>
+        <efo:bioportal_provenance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A hematopoietic multipotent progenitor cell is multipotent, but not capable of long-term self-renewal. These cells are characterized as lacking lineage cell surface markers and being CD34-positive in both mice and humans.[accessedResource: CL:0000837][accessDate: 05-04-2011]</efo:bioportal_provenance>
+        <efo:bioportal_provenance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPP[accessedResource: CL:0000837][accessDate: 05-04-2011]</efo:bioportal_provenance>
+        <efo:bioportal_provenance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hematopoietic multipotent progenitor cell[accessedResource: CL:0000837][accessDate: 05-04-2011]</efo:bioportal_provenance>
+        <efo:bioportal_provenance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hemopoietic progenitor cell[accessedResource: CL:0000837][accessDate: 05-04-2011]</efo:bioportal_provenance>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hematopoietic multipotent progenitor cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0001008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0001008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000037"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kit and Sca1-positive hematopoietic stem cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0002033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0001008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">short term hematopoietic stem cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0002034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0001008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long term hematopoietic stem cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10088">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mus (commonly mice) is a small mammal belonging to the order of rodents.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Malone</obo:IAO_0000117>
+        <efo:EFO_URI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/EFO_0002644</efo:EFO_URI>
+        <efo:MSH_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D051379</efo:MSH_definition_citation>
+        <efo:NCI_Thesaurus_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIt:C14238</efo:NCI_Thesaurus_definition_citation>
+        <efo:SNOMEDCT_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT:447482001</efo:SNOMEDCT_definition_citation>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mice</efo:alternative_term>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse</efo:alternative_term>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10090">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10088"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Class imported / merged by efoimporter</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Malone</obo:IAO_0000117>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <efo:NCI_Thesaurus_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIt:C45247</efo:NCI_Thesaurus_definition_citation>
+        <efo:SNOMEDCT_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT:447612001</efo:SNOMEDCT_definition_citation>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mus muscaris</efo:alternative_term>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">house mouse</efo:alternative_term>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mice C57BL/6xCBA/CaJ hybrid</efo:alternative_term>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse</efo:alternative_term>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:10090</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mus musculus</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+        <owl:annotatedProperty rdf:resource="http://www.ebi.ac.uk/efo/alternative_term"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mus muscaris</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#misnomer"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+        <owl:annotatedProperty rdf:resource="http://www.ebi.ac.uk/efo/alternative_term"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">house mouse</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#common_name"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+        <owl:annotatedProperty rdf:resource="http://www.ebi.ac.uk/efo/alternative_term"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mice C57BL/6xCBA/CaJ hybrid</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#misspelling"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+        <owl:annotatedProperty rdf:resource="http://www.ebi.ac.uk/efo/alternative_term"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#common_name"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2759 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2759">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Malone</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomasz Adamusiak</obo:IAO_0000117>
+        <efo:EFO_URI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/EFO_0001449</efo:EFO_URI>
+        <efo:MSH_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D056890</efo:MSH_definition_citation>
+        <efo:NCI_Thesaurus_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIt:C25796</efo:NCI_Thesaurus_definition_citation>
+        <efo:NIFSTD_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NIFSTD:birnlex_399</efo:NIFSTD_definition_citation>
+        <efo:SNOMEDCT_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT:415671008</efo:SNOMEDCT_definition_citation>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eucaryotae</efo:alternative_term>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eukarya</efo:alternative_term>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eucaryotes</efo:alternative_term>
+        <efo:bioportal_provenance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eucaryotae[accessedResource: NIFSTD:birnlex_399][accessDate: 05-04-2011]</efo:bioportal_provenance>
+        <efo:bioportal_provenance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eukarya[accessedResource: NIFSTD:birnlex_399][accessDate: 05-04-2011]</efo:bioportal_provenance>
+        <efo:bioportal_provenance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eucaryotes[accessedResource: NIFSTD:birnlex_399][accessDate: 05-04-2011]</efo:bioportal_provenance>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eukaryota</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7215 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7215">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Class imported / merged by efoimporter</obo:IAO_0000117>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_genus"/>
+        <efo:MSH_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D004330</efo:MSH_definition_citation>
+        <efo:NCI_Thesaurus_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIt:C14202</efo:NCI_Thesaurus_definition_citation>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drosophila Fallen, 1823</efo:alternative_term>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fruit flies</efo:alternative_term>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:7215</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drosophila</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7215"/>
+        <owl:annotatedProperty rdf:resource="http://www.ebi.ac.uk/efo/alternative_term"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drosophila Fallen, 1823</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7215"/>
+        <owl:annotatedProperty rdf:resource="http://www.ebi.ac.uk/efo/alternative_term"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fruit flies</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#common_name"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0100026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100026">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000001"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drosophila melanogaster</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">A material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs. E.g Drosophila melanogaster</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Malone</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomasz Adamusiak</obo:IAO_0000117>
+        <efo:EFO_URI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/EFO_0000634</efo:EFO_URI>
+        <efo:MO_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MO:508</efo:MO_definition_citation>
+        <efo:NCI_Thesaurus_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIt:C14250</efo:NCI_Thesaurus_definition_citation>
+        <efo:NIFSTD_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NIFSTD:birnlex_376</efo:NIFSTD_definition_citation>
+        <efo:SNOMEDCT_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT:410607006</efo:SNOMEDCT_definition_citation>
+        <efo:alternative_term>species</efo:alternative_term>
+        <efo:branch_class rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</efo:branch_class>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002371 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002371">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000787"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flexible tissue found in the hollow interior of bones. In adults, marrow in large bones produces new blood cells[WP].</obo:IAO_0000115>
+        <obo:UBPROP_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The bone marrow is the hematopoietic organ in all vertebrates but fishes, in which hematopoiesis occurs in the kidney.[well established][VHOG]</obo:UBPROP_0000003>
+        <core:homologous_in rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7742"/>
+        <efo:AAO_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0011007</efo:AAO_definition_citation>
+        <efo:BTO_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000141</efo:BTO_definition_citation>
+        <efo:BTO_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000829</efo:BTO_definition_citation>
+        <efo:CALOHA_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0087</efo:CALOHA_definition_citation>
+        <efo:EFO_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000868</efo:EFO_definition_citation>
+        <efo:EV_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV:0100046</efo:EV_definition_citation>
+        <efo:FMA_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:9608</efo:FMA_definition_citation>
+        <efo:GAID_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAID:1287</efo:GAID_definition_citation>
+        <efo:MAT_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAT:0000084</efo:MAT_definition_citation>
+        <efo:MA_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0000134</efo:MA_definition_citation>
+        <efo:MIAA_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIAA:0000084</efo:MIAA_definition_citation>
+        <efo:MSH_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:A15.382.216</efo:MSH_definition_citation>
+        <efo:MSH_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D001853</efo:MSH_definition_citation>
+        <efo:NCI_Thesaurus_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIt:C12431</efo:NCI_Thesaurus_definition_citation>
+        <efo:OpenCyc_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rvVm-FpwpEbGdrcN5Y29ycA</efo:OpenCyc_definition_citation>
+        <efo:SNOMEDCT_definition_citation>SNOMEDCT:120638006</efo:SNOMEDCT_definition_citation>
+        <efo:UMLS_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0005953</efo:UMLS_definition_citation>
+        <efo:VHOG_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0001218</efo:VHOG_definition_citation>
+        <efo:Wikipedia_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Bone_marrow</efo:Wikipedia_definition_citation>
+        <efo:XAO_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:0000123</efo:XAO_definition_citation>
+        <efo:alternative_term>Bone marrow part</efo:alternative_term>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anterior kidney</efo:alternative_term>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">head kidney</efo:alternative_term>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kidney marrow</efo:alternative_term>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medulla of bone</efo:alternative_term>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medulla ossea</efo:alternative_term>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medulla ossium</efo:alternative_term>
+        <efo:galen_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:BoneMarrow</efo:galen_definition_citation>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://upload.wikimedia.org/wikipedia/commons/7/74/Gray72-en.svg</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0002371</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#efo_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#uberon_slim"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TODO - create superclass for bone marrow / head kidney. both are portions of tissue in the hematopoetic system. also consider adding as subclass of zone of bone organ for consistency with FMA. See also: Leydig and epigonal organs</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone marrow</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002371"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/uberon/core#homologous_in"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7742"/>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0001218</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002371"/>
+        <owl:annotatedProperty rdf:resource="http://www.ebi.ac.uk/efo/alternative_term"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medulla of bone</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000141</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002371"/>
+        <owl:annotatedProperty rdf:resource="http://www.ebi.ac.uk/efo/alternative_term"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medulla ossium</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000141</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002371"/>
+        <owl:annotatedProperty rdf:resource="http://www.ebi.ac.uk/efo/alternative_term"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medulla ossium</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Bone_marrow</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon#LATIN"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002371"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flexible tissue found in the hollow interior of bones. In adults, marrow in large bones produces new blood cells[WP].</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Bone_marrow</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002371"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000003"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The bone marrow is the hematopoietic organ in all vertebrates but fishes, in which hematopoiesis occurs in the kidney.[well established][VHOG]</owl:annotatedTarget>
+        <oboInOwl:date_retrieved rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-09-17</oboInOwl:date_retrieved>
+        <oboInOwl:external_class rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0001218</oboInOwl:external_class>
+        <oboInOwl:ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG</oboInOwl:ontology>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI:10.1146/annurev.cellbio.22.010605.093317 Hartenstein V, Blood Cells and Blood Cell Development in the Animal Kingdom. Annual Review of Cell and Developmental Biology (2006)</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bgee.unil.ch/</oboInOwl:source>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000001 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000001">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An experimental factor in Array Express which are essentially the variable aspects of an experiment design which can be used to describe an experiment, or set of experiments, in an increasingly detailed manner. This upper level class is really used to give a root class from which applications can rely on and not be tied to upper ontology classses which do change.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Helen Parkinson</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Malone</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomasz Adamusiak</obo:IAO_0000117>
+        <efo:MO_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MO:10</efo:MO_definition_citation>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ExperimentalFactor</efo:alternative_term>
+        <efo:bioportal_provenance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ExperimentalFactor[accessedResource: MO_10][accessDate: 05-04-2011]</efo:bioportal_provenance>
+        <efo:organizational_class rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</efo:organizational_class>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Helen Parkinson</oboInOwl:created_by>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Malone</oboInOwl:created_by>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomasz Adamusiak</oboInOwl:created_by>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Concept naming convention is lower case natural naming with spaces, when necessary captials should be used, for example disease factor, HIV, breast carcinoma, Ewing&apos;s sarcoma</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">experimental factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000324 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000324">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epithelial, glial.</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell type is a distinct morphological or functional form of cell.  Examples are epithelial, glial etc.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Malone</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomasz Adamusiak</obo:IAO_0000117>
+        <efo:MO_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MO:548</efo:MO_definition_citation>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell_type</efo:alternative_term>
+        <efo:bioportal_provenance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell_type[accessedResource: MO_548][accessDate: 05-04-2011]</efo:bioportal_provenance>
+        <efo:branch_class rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</efo:branch_class>
+        <rdfs:label>cell type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000635 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000635">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tissue, organ, system, sperm, blood or body location (arm).</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The part of organism&apos;s anatomy or substance arising from an organism from which the biomaterial was derived, excludes cells. E.g. tissue, organ, system, sperm, blood or body location (arm).</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Malone</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomasz Adamusiak</obo:IAO_0000117>
+        <efo:MO_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MO:954</efo:MO_definition_citation>
+        <efo:NCI_Thesaurus_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIt:C103199</efo:NCI_Thesaurus_definition_citation>
+        <efo:alternative_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organism_part</efo:alternative_term>
+        <efo:bioportal_provenance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organism_part[accessedResource: MO_954][accessDate: 05-04-2011]</efo:bioportal_provenance>
+        <efo:branch_class rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</efo:branch_class>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organism part</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000786 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000786">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000635"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Malone</obo:IAO_0000117>
+        <efo:MAT_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAT:0000000</efo:MAT_definition_citation>
+        <efo:organizational_class rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</efo:organizational_class>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomy basic component</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000787 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000787">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000786"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Malone</obo:IAO_0000117>
+        <efo:MAT_definition_citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAT:0000001</efo:MAT_definition_citation>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal component</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004472 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004472">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0005181"/>
+        <obo:IAO_0000115>C57BL/6 is a mouse strain as described in Jackson Laboratory strain index</obo:IAO_0000115>
+        <obo:IAO_0000117>Helen Parkinson</obo:IAO_0000117>
+        <efo:alternative_term>B6</efo:alternative_term>
+        <efo:alternative_term>C57</efo:alternative_term>
+        <efo:alternative_term>C57 Black/6</efo:alternative_term>
+        <efo:alternative_term>C57/B6</efo:alternative_term>
+        <efo:alternative_term>C57/BL6</efo:alternative_term>
+        <efo:alternative_term>C57B/6</efo:alternative_term>
+        <efo:alternative_term>C57BL6</efo:alternative_term>
+        <efo:alternative_term>C57Bl,</efo:alternative_term>
+        <efo:alternative_term>C57Bl\6</efo:alternative_term>
+        <efo:alternative_term>C57Black</efo:alternative_term>
+        <efo:alternative_term>C57Black/6</efo:alternative_term>
+        <efo:alternative_term>C57Black6</efo:alternative_term>
+        <efo:alternative_term>CB57</efo:alternative_term>
+        <rdfs:label>C57BL/6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0005181 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0005181">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+        <obo:IAO_0000115>An inbred strain of mouse created in 1921 by C. C. Little at the Bussey Institute for Research in Applied Biology.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C57BL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/bfo/1.1/snap#MaterialEntity -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000001"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A heart, a human, a fly, a microarray.</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A material entity is an entity that exists in full during the length of time of its existence, persists through this time while maintaining its identity and has no temporal parts. For example a heart, a human, a fly, a microarray.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Malone</obo:IAO_0000117>
+        <efo:ArrayExpress_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sample factor</efo:ArrayExpress_label>
+        <efo:EFO_URI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/EFO_0001434</efo:EFO_URI>
+        <efo:alternative_term>material type</efo:alternative_term>
+        <efo:organizational_class rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</efo:organizational_class>
+        <efo:source_definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An independent continuant [snap:IndependentContinuant] that is spatially extended whose identity is independent of that of other entities and can be maintained through time. Note: Material entity [snap:MaterialEntity] subsumes object [snap:Object], fiat object part [snap:FiatObjectPart], and object aggregate [snap:ObjectAggregate], which assume a three level theory of granularity, which is inadequate for some domains, such as biology.</efo:source_definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
