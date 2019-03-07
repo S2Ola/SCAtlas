@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/S2Ola/scao.svg?branch=master)](https://travis-ci.org/S2Ola/scao)
-[![DOI](https://zenodo.org/badge/13996/S2Ola/scao.svg)](https://zenodo.org/badge/latestdoi/13996/S2Ola/scao)
+[![Build Status](https://travis-ci.org/S2Ola/scATLAS.svg?branch=master)](https://travis-ci.org/S2Ola/scATLAS)
+[![DOI](https://zenodo.org/badge/13996/S2Ola/scATLAS.svg)](https://zenodo.org/badge/latestdoi/13996/S2Ola/scATLAS)
 
 # Single Cell Atlas Ontology
 
@@ -20,11 +20,11 @@ http://purl.obolibrary.org/obo/scATLAS.owl
 
 ### Editors' version
 
-Editors of this ontology should use the edit version, [src/ontology/scATLAS-edit.owl](src/ontology/scao-edit.owl)
+Editors of this ontology should use the edit version, [src/ontology/scATLAS-edit.owl](src/ontology/scATLAS-edit.owl)
 
 ## Contact
 
-Please use this GitHub repository's [Issue tracker](https://github.com/S2Ola/scao/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
+Please use this GitHub repository's [Issue tracker](https://github.com/S2Ola/scATLAS/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
 
 ## Acknowledgements
 
