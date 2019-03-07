@@ -20,7 +20,7 @@ http://purl.obolibrary.org/obo/scATLAS.owl
 
 ### Editors' version
 
-Editors of this ontology should use the edit version, [src/ontology/scATLAS-edit.owl](src/ontology/scao-edit.owl)
+Editors of this ontology should use the edit version, [src/ontology/scATLAS-edit.owl](src/ontology/scATLAS-edit.owl)
 
 ## Contact
 
