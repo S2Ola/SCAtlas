@@ -24,7 +24,7 @@ Editors of this ontology should use the edit version, [src/ontology/scATLAS-edit
 
 ## Contact
 
-Please use this GitHub repository's [Issue tracker](https://github.com/S2Ola/scao/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
+Please use this GitHub repository's [Issue tracker](https://github.com/S2Ola/scATLAS/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
 
 ## Acknowledgements
 
