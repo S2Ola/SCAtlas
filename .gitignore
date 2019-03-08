@@ -6,6 +6,7 @@ src/ontology/foobar.owl
 src/ontology/foobar-base.owl
 semantic.cache
 bin/
+scATLAS.owl
 src/ontology/seed.txt
 src/ontology/target/
 src/ontology/dosdp-tools.log
