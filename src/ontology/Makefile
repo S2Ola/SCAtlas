@@ -28,6 +28,7 @@ OWLTOOLS= 					../../../../bin/owltools
 IMPORTSDIR= 				./imports/
 PREFIX = 					"scATLAS: http://purl.obolibrary.org/obo/scATLAS_"
 SPARQLDIR=					../sparql/
+ROBOT= 						./bin/robot
 
 
 TODAY   := $(shell date +%Y-%m-%d)

@@ -8,4 +8,314 @@ http://www.ebi.ac.uk/efo/EFO_0004472	#	C57BL/6
 http://purl.obolibrary.org/obo/CL_0002034	#	long term hematopoietic stem cell
 http://purl.obolibrary.org/obo/CL_0000837	#	hematopoietic multipotent progenitor cell
 http://purl.obolibrary.org/obo/CL_0002033	#	short term hematopoietic stem cell
-http://purl.obolibrary.org/obo/NCBITaxon_7215 # drosophila
+http://purl.obolibrary.org/obo/NCBITaxon_7215	#	drosophila
+http://purl.obolibrary.org/obo/NCBITaxon_10090	#	Mus musculus
+http://purl.obolibrary.org/obo/CL_0000084	#	CD8-positive T cell
+http://purl.obolibrary.org/obo/UBERON_0000029	#	lymph node
+http://www.ebi.ac.uk/efo/EFO_0000616	#	tumor
+http://purl.obolibrary.org/obo/UBERON_0000014	#	skin
+http://purl.obolibrary.org/obo/UBERON_0000029	#	lymph node
+http://www.ebi.ac.uk/efo/EFO_0004472	#	C57BL/6
+http://purl.obolibrary.org/obo/UBERON_0000014	#	skin
+http://purl.obolibrary.org/obo/CL_0000084	#	CD4-positive T cell
+http://purl.obolibrary.org/obo/PATO_0000383	#	female
+http://purl.obolibrary.org/obo/CL_0000236	#	B cell
+http://www.ebi.ac.uk/efo/EFO_0007727	#	CAST/EiJ
+http://purl.obolibrary.org/obo/PATO_0000384	#	male
+http://purl.obolibrary.org/obo/CL_0005019	#	pancreatic epsilon cell
+http://purl.obolibrary.org/obo/CL_0000115	#	endothelial cell
+http://purl.obolibrary.org/obo/CL_0000097	#	mast cell
+http://purl.obolibrary.org/obo/CL_0000173	#	pancreatic D cell
+http://purl.obolibrary.org/obo/CL_0002275	#	pancreatic PP cell
+http://www.ebi.ac.uk/efo/EFO_0001360	#	type II diabetes mellitus
+http://purl.obolibrary.org/obo/PATO_0001422	#	post-mortem
+http://purl.obolibrary.org/obo/PATO_0000384	#	male
+http://purl.obolibrary.org/obo/PATO_0000461	#	normal
+http://purl.obolibrary.org/obo/CL_0000168	#	beta cell
+http://purl.obolibrary.org/obo/UBERON_0001264	#	pancreas
+http://purl.obolibrary.org/obo/CL_0000622	#	acinar cell
+http://purl.obolibrary.org/obo/NCBITaxon_9606	#	Homo sapiens
+http://purl.obolibrary.org/obo/UBERON_0000006	#	islet of Langerhans
+http://purl.obolibrary.org/obo/CL_0002079	#	pancreatic ductal cell
+http://purl.obolibrary.org/obo/CL_0000171	#	pancreatic A cell
+http://purl.obolibrary.org/obo/PATO_0000383	#	female
+http://purl.obolibrary.org/obo/CL_0002410	#	pancreatic stellate cell
+http://www.ebi.ac.uk/efo/EFO_0003047	#	hepatitis C infection
+http://purl.obolibrary.org/obo/UBERON_0000178	#	blood
+http://www.ebi.ac.uk/efo/EFO_0002660	#	primary cell
+http://purl.obolibrary.org/obo/NCBITaxon_9606	#	Homo sapiens
+http://purl.obolibrary.org/obo/PATO_0000384	#	male
+http://www.ebi.ac.uk/efo/EFO_0004219	#	CD8-Positive T-Lymphocytes
+http://purl.obolibrary.org/obo/CLO_0000019	#	immortal cell line cell
+http://www.ebi.ac.uk/efo/EFO_0001461	#	none
+http://purl.obolibrary.org/obo/NCBITaxon_5821	#	Plasmodium berghei
+http://www.ebi.ac.uk/efo/EFO_0002592	#	trophozoite
+http://purl.obolibrary.org/obo/PATO_0000383	#	female
+http://purl.obolibrary.org/obo/PATO_0000384	#	male
+http://purl.obolibrary.org/obo/CL_0000895	#	naive thymus-derived CD4-positive, alpha-beta T cell
+http://purl.obolibrary.org/obo/CL_0000905	#	effector memory CD4-positive, alpha-beta T cell
+http://www.ebi.ac.uk/efo/EFO_0004472	#	C57BL/6
+http://www.ebi.ac.uk/efo/EFO_0001461	#	none
+http://purl.obolibrary.org/obo/NCBITaxon_10090	#	Mus musculus
+http://purl.obolibrary.org/obo/UBERON_0002106	#	spleen
+http://purl.obolibrary.org/obo/UBERON_0000473	#	testis
+http://purl.obolibrary.org/obo/UBERON_0002113	#	kidney
+http://www.ebi.ac.uk/efo/EFO_0001272	#	adult
+http://purl.obolibrary.org/obo/CL_0000081	#	blood cell
+http://www.ebi.ac.uk/efo/EFO_0006531	#	888-mel
+http://purl.obolibrary.org/obo/PATO_0000461	#	normal
+http://purl.obolibrary.org/obo/NCBITaxon_10090	#	Mus musculus
+http://purl.obolibrary.org/obo/CL_0002322	#	embryonic stem cell
+http://purl.obolibrary.org/obo/UBERON_0000087	#	inner cell mass
+http://www.ebi.ac.uk/efo/EFO_0007075	#	ES-E14
+http://purl.obolibrary.org/obo/UBERON_0000109	#	gastrula
+http://purl.obolibrary.org/obo/UBERON_0000468	#	whole organism
+http://purl.obolibrary.org/obo/NCBITaxon_7955	#	Danio rerio
+http://purl.obolibrary.org/obo/NCBITaxon_7955	#	Danio rerio
+http://purl.obolibrary.org/obo/UBERON_0001013	#	adipose tissue
+http://purl.obolibrary.org/obo/NCBITaxon_9606	#	Homo sapiens
+http://www.ebi.ac.uk/efo/EFO_0000613	#	myxoid liposarcoma
+http://purl.obolibrary.org/obo/PATO_0000383	#	female
+http://purl.obolibrary.org/obo/CL_0000387	#	hemocyte
+http://purl.obolibrary.org/obo/NCBITaxon_7165	#	Anopheles gambiae
+http://purl.obolibrary.org/obo/UBERON_0000922	#	embryo
+http://purl.obolibrary.org/obo/UBERON_0000087	#	inner cell mass
+http://purl.obolibrary.org/obo/CL_0002322	#	embryonic stem cell
+http://purl.obolibrary.org/obo/PATO_0000384	#	male
+http://purl.obolibrary.org/obo/NCBITaxon_10090	#	Mus musculus
+http://purl.obolibrary.org/obo/CL_0002322	#	embryonic stem cell
+http://purl.obolibrary.org/obo/PATO_0000461	#	normal
+http://purl.obolibrary.org/obo/UBERON_0000922	#	embryo
+http://purl.obolibrary.org/obo/NCBITaxon_9606	#	Homo sapiens
+http://purl.obolibrary.org/obo/UBERON_0000087	#	inner cell mass
+http://www.ebi.ac.uk/efo/EFO_0000606	#	C57BL/6J
+http://purl.obolibrary.org/obo/PATO_0000383	#	female
+http://purl.obolibrary.org/obo/NCBITaxon_10090	#	Mus musculus
+http://purl.obolibrary.org/obo/UBERON_0001911	#	mammary gland
+http://www.ebi.ac.uk/efo/EFO_0002660	#	primary cell
+http://purl.obolibrary.org/obo/PATO_0000461	#	normal
+http://purl.obolibrary.org/obo/CL_0000136	#	adipocyte
+http://www.ebi.ac.uk/efo/EFO_0001461	#	none
+http://purl.obolibrary.org/obo/CL_0002334	#	preadipocyte
+http://purl.obolibrary.org/obo/UBERON_0001013	#	adipose tissue
+http://purl.obolibrary.org/obo/CL_0002334	#	preadipocyte
+http://purl.obolibrary.org/obo/PATO_0000461	#	normal
+http://www.ebi.ac.uk/efo/EFO_0001272	#	adult
+http://purl.obolibrary.org/obo/PATO_0000384	#	male
+http://www.ebi.ac.uk/efo/EFO_0002508	#	Parkinson's disease
+http://purl.obolibrary.org/obo/CL_0000700	#	dopaminergic neuron
+http://www.ebi.ac.uk/efo/EFO_0004905	#	induced pluripotent stem cell
+http://purl.obolibrary.org/obo/PATO_0000383	#	female
+http://purl.obolibrary.org/obo/UBERON_0000014	#	skin
+http://purl.obolibrary.org/obo/NCBITaxon_9606	#	Homo sapiens
+http://www.ebi.ac.uk/efo/EFO_0000519	#	glioblastoma
+http://purl.obolibrary.org/obo/UBERON_0000955	#	brain
+http://www.ebi.ac.uk/efo/EFO_0001461	#	none
+http://purl.obolibrary.org/obo/NCBITaxon_9606	#	Homo sapiens
+http://purl.obolibrary.org/obo/NCBITaxon_9606	#	Homo sapiens
+http://purl.obolibrary.org/obo/CL_0000623	#	natural killer cell
+http://purl.obolibrary.org/obo/CL_0001069	#	group 2 innate lymphoid cell
+http://purl.obolibrary.org/obo/CL_0001067	#	group 1 innate lymphoid cell
+http://www.ebi.ac.uk/efo/EFO_0003918	#	obstructive sleep apnea syndrome
+http://purl.obolibrary.org/obo/UBERON_0002372	#	tonsil
+http://purl.obolibrary.org/obo/CL_0001071	#	group 3 innate lymphoid cell
+http://purl.obolibrary.org/obo/PATO_0000384	#	male
+http://purl.obolibrary.org/obo/UBERON_0002436	#	primary visual cortex
+http://www.ebi.ac.uk/efo/EFO_0001272	#	adult
+http://purl.obolibrary.org/obo/NCBITaxon_10090	#	Mus musculus
+http://www.ebi.ac.uk/efo/EFO_0000606	#	C57BL/6J
+http://purl.obolibrary.org/obo/UBERON_0000956	#	cortex
+http://purl.obolibrary.org/obo/NCBITaxon_9606	#	Homo sapiens
+http://www.ebi.ac.uk/efo/EFO_1000294	#	HER2 positive breast carcinoma
+http://www.ebi.ac.uk/efo/EFO_0000305	#	breast carcinoma
+http://purl.obolibrary.org/obo/UBERON_0000029	#	lymph node
+http://www.ebi.ac.uk/efo/EFO_0004906	#	metastasis to lymph node
+http://purl.obolibrary.org/obo/CHEBI_2365	#	ABA
+http://purl.obolibrary.org/obo/UBERON_0000922	#	embryo
+http://purl.obolibrary.org/obo/NCBITaxon_6239	#	Caenorhabditis elegans
+http://purl.obolibrary.org/obo/NCBITaxon_9606	#	Homo sapiens
+http://purl.obolibrary.org/obo/PATO_0000383	#	female
+http://purl.obolibrary.org/obo/HANCESTRO_0487	#	Asian Indian
+http://purl.obolibrary.org/obo/CL_0000169	#	type B pancreatic cell
+http://purl.obolibrary.org/obo/PATO_0000384	#	male
+http://purl.obolibrary.org/obo/HANCESTRO_0568	#	African American
+http://purl.obolibrary.org/obo/PATO_0000461	#	normal
+http://purl.obolibrary.org/obo/CL_0000173	#	pancreatic D cell
+http://purl.obolibrary.org/obo/PATO_0000383	#	female
+http://purl.obolibrary.org/obo/UBERON_0000006	#	islet of Langerhans
+http://www.ebi.ac.uk/efo/EFO_0000712	#	stroke
+http://purl.obolibrary.org/obo/CL_0000171	#	pancreatic A cell
+http://purl.obolibrary.org/obo/PATO_0001422	#	post-mortem
+http://www.ebi.ac.uk/efo/EFO_0001360	#	type II diabetes mellitus
+http://purl.obolibrary.org/obo/NCBITaxon_9606	#	Homo sapiens
+http://purl.obolibrary.org/obo/HANCESTRO_0005	#	Caucasian
+http://purl.obolibrary.org/obo/HANCESTRO_0014	#	Hispanic
+http://purl.obolibrary.org/obo/CL_0002275	#	pancreatic PP cell
+http://purl.obolibrary.org/obo/UBERON_0002371	#	bone marrow
+http://purl.obolibrary.org/obo/CL_0002034	#	long term hematopoietic stem cell
+http://www.ebi.ac.uk/efo/EFO_0004472	#	C57BL/6
+http://purl.obolibrary.org/obo/NCBITaxon_10090	#	Mus musculus
+http://purl.obolibrary.org/obo/PATO_0000383	#	female
+http://purl.obolibrary.org/obo/CL_0000171	#	pancreatic A cell
+http://purl.obolibrary.org/obo/PATO_0000384	#	male
+http://purl.obolibrary.org/obo/UBERON_0000006	#	islet of Langerhans
+http://www.ebi.ac.uk/efo/EFO_0000586	#	mesenchymal cell
+http://purl.obolibrary.org/obo/HANCESTRO_0005	#	Caucasian
+http://purl.obolibrary.org/obo/PATO_0000383	#	female
+http://purl.obolibrary.org/obo/NCBITaxon_9606	#	Homo sapiens
+http://purl.obolibrary.org/obo/PATO_0000461	#	normal
+http://purl.obolibrary.org/obo/HANCESTRO_0568	#	African American
+http://www.ebi.ac.uk/efo/EFO_0000712	#	stroke
+http://purl.obolibrary.org/obo/CL_0002079	#	pancreatic ductal cell
+http://purl.obolibrary.org/obo/CL_0000622	#	acinar cell
+http://purl.obolibrary.org/obo/CL_0000173	#	pancreatic D cell
+http://purl.obolibrary.org/obo/HANCESTRO_0008	#	Asian
+http://purl.obolibrary.org/obo/CL_0000169	#	type B pancreatic cell
+http://www.ebi.ac.uk/efo/EFO_0001461	#	none
+http://purl.obolibrary.org/obo/CL_0002453	#	oligodendrocyte precursor cell
+http://www.ebi.ac.uk/efo/EFO_0000519	#	brain glioblastoma
+http://purl.obolibrary.org/obo/CL_0000540	#	neuron
+http://purl.obolibrary.org/obo/CL_0001063	#	neoplastic cell
+http://purl.obolibrary.org/obo/CL_0000128	#	oligodendrocyte
+http://purl.obolibrary.org/obo/NCBITaxon_9606	#	Homo sapiens
+http://www.ebi.ac.uk/efo/EFO_0000616	#	tumor
+http://purl.obolibrary.org/obo/UBERON_0000955	#	brain
+http://purl.obolibrary.org/obo/CL_0000127	#	astrocyte
+http://purl.obolibrary.org/obo/NCBITaxon_9606	#	Homo sapiens
+http://www.ebi.ac.uk/efo/EFO_0000768	#	idiopathic pulmonary fibrosis
+http://purl.obolibrary.org/obo/CL_0000066	#	epithelial cell
+http://purl.obolibrary.org/obo/PATO_0000461	#	normal
+http://purl.obolibrary.org/obo/UBERON_0002048	#	lung
+http://purl.obolibrary.org/obo/NCBITaxon_10090	#	Mus musculus
+http://purl.obolibrary.org/obo/UBERON_0002371	#	bone marrow
+http://purl.obolibrary.org/obo/UBERON_0000178	#	blood
+http://purl.obolibrary.org/obo/CL_0000451	#	conventional dendritic cell
+http://purl.obolibrary.org/obo/CL_0002010	#	pre-conventional dendritic cell
+http://purl.obolibrary.org/obo/UBERON_0012168	#	umbilical cord blood
+http://purl.obolibrary.org/obo/NCBITaxon_9606	#	Homo sapiens
+http://purl.obolibrary.org/obo/UBERON_0000310	#	breast
+http://www.ebi.ac.uk/efo/EFO_0000616	#	primary tumor
+http://www.ebi.ac.uk/efo/EFO_0005537	#	triple-negative breast cancer
+http://purl.obolibrary.org/obo/UBERON_0001068	#	skin of back
+http://www.ebi.ac.uk/efo/EFO_0000606	#	C57BL/6J
+http://www.ebi.ac.uk/efo/EFO_0001271	#	mixed sex
+http://www.ebi.ac.uk/efo/EFO_0005180	#	CD1
+http://purl.obolibrary.org/obo/NCBITaxon_10090	#	Mus musculus
+http://www.ebi.ac.uk/efo/EFO_0001461	#	none
+http://purl.obolibrary.org/obo/NCBITaxon_6339	#	Heligmosomoides polygyrus
+http://purl.obolibrary.org/obo/NCBITaxon_10090	#	Mus musculus
+http://purl.obolibrary.org/obo/CL_0000066	#	epithelial cell
+http://purl.obolibrary.org/obo/CL_0000160	#	goblet cell
+http://purl.obolibrary.org/obo/CL_0000510	#	paneth cell
+http://purl.obolibrary.org/obo/CL_0000034	#	stem cell
+http://purl.obolibrary.org/obo/CL_0000163	#	endocrine cell
+http://www.ebi.ac.uk/efo/EFO_0000606	#	C57BL/6J
+http://purl.obolibrary.org/obo/NCBITaxon_28901	#	Salmonella enterica
+http://purl.obolibrary.org/obo/UBERON_0002108	#	small intestine
+http://purl.obolibrary.org/obo/CL_0002204	#	tuft cell
+http://purl.obolibrary.org/obo/CL_0000584	#	enterocyte
+http://purl.obolibrary.org/obo/CL_0000034	#	stem cell
+http://www.ebi.ac.uk/efo/EFO_0000606	#	C57BL/6J
+http://purl.obolibrary.org/obo/CL_0000163	#	endocrine cell
+http://purl.obolibrary.org/obo/CL_0000510	#	paneth cell
+http://purl.obolibrary.org/obo/CL_0000066	#	epithelial cell
+http://purl.obolibrary.org/obo/NCBITaxon_10090	#	Mus musculus
+http://purl.obolibrary.org/obo/CL_0002204	#	tuft cell
+http://purl.obolibrary.org/obo/UBERON_0002108	#	small intestine
+http://purl.obolibrary.org/obo/CL_0000160	#	goblet cell
+http://purl.obolibrary.org/obo/CL_0000584	#	enterocyte
+http://www.ebi.ac.uk/efo/EFO_0000756	#	melanoma
+http://purl.obolibrary.org/obo/UBERON_0000014	#	skin
+http://purl.obolibrary.org/obo/PATO_0000384	#	male
+http://purl.obolibrary.org/obo/NCBITaxon_9606	#	Homo sapiens
+http://purl.obolibrary.org/obo/CL_0002322	#	embryonic stem cell
+http://purl.obolibrary.org/obo/UBERON_0000922	#	embryo
+http://purl.obolibrary.org/obo/PATO_0000384	#	male
+http://purl.obolibrary.org/obo/CL_0000037	#	hematopoietic stem cell
+http://www.ebi.ac.uk/efo/EFO_0001272	#	adult
+http://purl.obolibrary.org/obo/NCBITaxon_10090	#	Mus musculus
+http://www.ebi.ac.uk/efo/EFO_0004472	#	C57BL/6
+http://www.ebi.ac.uk/efo/EFO_0004472	#	C57BL/6
+http://www.ebi.ac.uk/efo/EFO_0001272	#	adult
+http://purl.obolibrary.org/obo/NCBITaxon_10090	#	Mus musculus
+http://purl.obolibrary.org/obo/UBERON_0002048	#	lung
+http://purl.obolibrary.org/obo/NCBITaxon_10090	#	Mus musculus
+http://www.ebi.ac.uk/efo/EFO_0004472	#	C57BL/6
+http://www.ebi.ac.uk/efo/EFO_0001272	#	adult
+http://purl.obolibrary.org/obo/NCBITaxon_9606	#	Homo sapiens
+http://www.ebi.ac.uk/efo/EFO_0002071	#	LNCaP
+http://purl.obolibrary.org/obo/UBERON_0002367	#	prostate gland
+http://purl.obolibrary.org/obo/HANCESTRO_0005	#	Caucasian
+http://www.ebi.ac.uk/efo/EFO_0001461	#	none
+http://purl.obolibrary.org/obo/CL_0000066	#	epithelial cell
+http://purl.obolibrary.org/obo/PATO_0000384	#	male
+http://purl.obolibrary.org/obo/CHEBI_379896	#	methyltrienolone
+http://www.ebi.ac.uk/efo/EFO_0001663	#	prostate carcinoma
+http://purl.obolibrary.org/obo/CL_0000540	#	neuron
+http://purl.obolibrary.org/obo/UBERON_0000070	#	pupal stage
+http://purl.obolibrary.org/obo/UBERON_0000955	#	brain
+http://www.ebi.ac.uk/efo/EFO_0001271	#	mixed sex population
+http://purl.obolibrary.org/obo/CL_0000127	#	astrocyte
+http://purl.obolibrary.org/obo/NCBITaxon_7227	#	Drosophila melanogaster
+http://purl.obolibrary.org/obo/UBERON_0002371	#	bone marrow
+http://purl.obolibrary.org/obo/CL_0002034	#	long term hematopoietic stem cell
+http://www.ebi.ac.uk/efo/EFO_0004472	#	C57BL/6
+http://purl.obolibrary.org/obo/CL_0000837	#	hematopoietic multipotent progenitor cell
+http://purl.obolibrary.org/obo/NCBITaxon_10090	#	Mus musculus
+http://www.ebi.ac.uk/efo/EFO_0001461	#	none
+http://purl.obolibrary.org/obo/CL_0002033	#	short term hematopoietic stem cell
+http://purl.obolibrary.org/obo/CL_0000557	#	granulocyte macrophage progenitor
+http://purl.obolibrary.org/obo/UBERON_0012168	#	umbilical cord blood
+http://purl.obolibrary.org/obo/NCBITaxon_9606	#	Homo sapiens
+http://purl.obolibrary.org/obo/ZFA_0000669	#	head kidney
+http://purl.obolibrary.org/obo/CL_0002419	#	mature T cell
+http://purl.obolibrary.org/obo/NCBITaxon_7955	#	Danio rerio
+http://purl.obolibrary.org/obo/CL_0000037	#	hematopoietic stem cell
+http://purl.obolibrary.org/obo/CL_0000034	#	stem cell
+http://purl.obolibrary.org/obo/NCBITaxon_6183	#	Schistosoma mansoni
+http://purl.obolibrary.org/obo/PATO_0000384	#	male
+http://purl.obolibrary.org/obo/NCBITaxon_10090	#	Mus musculus
+http://www.ebi.ac.uk/efo/EFO_0001272	#	adult
+http://purl.obolibrary.org/obo/CL_0000129	#	microglial cell
+http://purl.obolibrary.org/obo/UBERON_0002421	#	hippocampus
+http://purl.obolibrary.org/obo/NCBITaxon_10116	#	Rattus norvegicus
+http://purl.obolibrary.org/obo/PATO_0000383	#	female
+http://www.ebi.ac.uk/efo/EFO_0001342	#	Wistar
+http://purl.obolibrary.org/obo/PATO_0000461	#	normal
+http://purl.obolibrary.org/obo/CL_2000001	#	peripheral blood mononuclear cell
+http://purl.obolibrary.org/obo/UBERON_0000178	#	blood
+http://purl.obolibrary.org/obo/NCBITaxon_9606	#	Homo sapiens
+http://purl.obolibrary.org/obo/PATO_0000383	#	female
+http://www.ebi.ac.uk/efo/EFO_0004472	#	C57BL/6
+http://purl.obolibrary.org/obo/CL_0002028	#	basophil mast progenitor cell
+http://purl.obolibrary.org/obo/UBERON_0002371	#	bone marrow
+http://purl.obolibrary.org/obo/NCBITaxon_10090	#	Mus musculus
+http://purl.obolibrary.org/obo/CL_0000557	#	granulocyte monocyte progenitor cell
+http://purl.obolibrary.org/obo/NCBITaxon_7955	#	Danio rerio
+http://www.ebi.ac.uk/efo/EFO_0005180	#	CD1
+http://purl.obolibrary.org/obo/NCBITaxon_10090	#	Mus musculus
+http://purl.obolibrary.org/obo/UBERON_0004026	#	caudal ganglionic eminence
+http://www.ebi.ac.uk/efo/EFO_0002563	#	embryonic day 12.5
+http://www.ebi.ac.uk/efo/EFO_0002565	#	embryonic day 14.5
+http://www.ebi.ac.uk/efo/EFO_0003045	#	H9 embryonic stem cell
+http://purl.obolibrary.org/obo/CL_0002322	#	embryonic stem cell
+http://purl.obolibrary.org/obo/NCBITaxon_9606	#	Homo sapiens
+http://purl.obolibrary.org/obo/UBERON_0002371	#	bone marrow
+http://www.ebi.ac.uk/efo/EFO_0001378	#	multiple myeloma
+http://purl.obolibrary.org/obo/CL_0000786	#	plasma cell
+http://purl.obolibrary.org/obo/NCBITaxon_9606	#	Homo sapiens
+http://purl.obolibrary.org/obo/UBERON_0007795	#	ascitic fluid
+http://www.ebi.ac.uk/efo/EFO_0001461	#	none
+http://purl.obolibrary.org/obo/PATO_0000461	#	normal
+http://purl.obolibrary.org/obo/CL_0000492	#	CD4-positive helper T cell
+http://www.ebi.ac.uk/efo/EFO_0000764	#	HIV infection
+http://purl.obolibrary.org/obo/NCBITaxon_9606	#	Homo sapiens
+http://purl.obolibrary.org/obo/UBERON_0000178	#	blood
+http://purl.obolibrary.org/obo/NCBITaxon_9606	#	Homo sapiens
+http://purl.obolibrary.org/obo/PATO_0000383	#	female
+http://purl.obolibrary.org/obo/HANCESTRO_0005	#	Caucasian
+http://purl.obolibrary.org/obo/NCBITaxon_9606	#	Homo sapiens
+http://www.ebi.ac.uk/efo/EFO_0000756	#	melanoma
+http://www.ebi.ac.uk/efo/EFO_0001461	#	none
+http://purl.obolibrary.org/obo/UBERON_0000014	#	skin
+http://purl.obolibrary.org/obo/PATO_0000383	#	female

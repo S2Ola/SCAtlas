@@ -149,16 +149,16 @@ Finally type:
 
 IMMEDIATELY AFTERWARDS (do *not* make further modifications) go here:
 
- * https://github.com/S2Ola/scao/releases
- * https://github.com/S2Ola/scao/releases/new
+ * https://github.com/S2Ola/scATLAS/releases
+ * https://github.com/S2Ola/scATLAS/releases/new
 
 __IMPORTANT__: The value of the "Tag version" field MUST be
 
     vYYYY-MM-DD
 
 The initial lowercase "v" is REQUIRED. The YYYY-MM-DD *must* match
-what is in the `owl:versionIRI` of the derived scao.owl (`data-version` in
-scao.obo). This will be today's date.
+what is in the `owl:versionIRI` of the derived scATLAS.owl (`data-version` in
+scATLAS.obo). This will be today's date.
 
 This cannot be changed after the fact, be sure to get this right!
 
@@ -175,19 +175,19 @@ The PURLs are already configured to pull from github. This means that
 BOTH ontology purls and versioned ontology purls will resolve to the
 correct ontologies. Try it!
 
- * http://purl.obolibrary.org/obo/scao.owl <-- current ontology PURL
- * http://purl.obolibrary.org/obo/scao/releases/YYYY-MM-DD.owl <-- change to the release you just made
+ * http://purl.obolibrary.org/obo/scATLAS.owl <-- current ontology PURL
+ * http://purl.obolibrary.org/obo/scATLAS/releases/YYYY-MM-DD.owl <-- change to the release you just made
 
 For questions on this contact Chris Mungall or email obo-admin AT obofoundry.org
 
 # Travis Continuous Integration System
 
-Check the build status here: [![Build Status](https://travis-ci.org/S2Ola/scao.svg?branch=master)](https://travis-ci.org/S2Ola/scao)
+Check the build status here: [![Build Status](https://travis-ci.org/S2Ola/scATLAS.svg?branch=master)](https://travis-ci.org/S2Ola/scATLAS)
 
 Note: if you have only just created this project you will need to authorize travis for this repo.
 
  1. Go to [https://travis-ci.org/profile/S2Ola](https://travis-ci.org/profile/S2Ola)
  2. click the "Sync account" button
- 3. Click the tick symbol next to scao
+ 3. Click the tick symbol next to scATLAS
 
 Travis builds should now be activated
